@@ -2,6 +2,7 @@ import os
 import sys
 import Functions
 
+
 def menu():
 	menu = {}
 	menu['1'] = "Search by Max Population"
