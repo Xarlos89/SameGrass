@@ -1,13 +1,8 @@
 import pandas as pd
-import logging
-
-logging.basicConfig(level=logging.WARNING)
 
 df = pd.read_excel('PopulationData.xlsx', header=[0])
 
 def Max_Population(MaxPop):
-	logging.info("Max Population set to: {}".format(MaxPop))
-
 	for row in range(0,len(df)):
 		city = df.iloc[row]['City']
 		state = df.iloc[row]['State']
@@ -16,8 +11,6 @@ def Max_Population(MaxPop):
 			print("City: {}\nState: {}\nPopulation: {}\n".format(city,state,currentPop))
 
 def Minimum_Population(MinPop):
-	logging.info("Minimum Population set to: {}".format(MinPop))
-
 	for row in range(0,len(df)):
 		city = df.iloc[row]['City']
 		state = df.iloc[row]['State']
@@ -26,8 +19,6 @@ def Minimum_Population(MinPop):
 			print("City: {}\nState: {}\nPopulation: {}\n".format(city,state,currentPop))
 
 def Population_Between(MinPop,MaxPop):
-	logging.info("Population set to between {} and {}".format(MinPop,MaxPop))
-
 	for row in range(0,len(df)):
 		city = df.iloc[row]['City']
 		state = df.iloc[row]['State']
