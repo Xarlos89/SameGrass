@@ -1,6 +1,6 @@
 import os
 import sys
-import Functions
+from Functions import *
 
 
 def menu():
@@ -22,22 +22,27 @@ def menu():
 		if selection == '1':
 			os.system('clear')
 			MaxPop = input('Enter the maximum population: ')
+			print('Searching...')
 			Max_Population(MaxPop)
 
 		elif selection == '2':
 			os.system('clear')
 			MinPop = input('Enter the Minimum population: ')
+			print('Searching...')
 			Minimum_Population(MinPop)
 
 		elif selection == '3':
 			os.system('clear')
 			MinPop = input('Enter the Minimum population: ')
 			MaxPop = input('Enter the maximum population: ')
-			Population_Between(MinPop,MaxPop)
+			radius = int(input('Enter the search radius (in miles): '))
+			print('Searching...')
+			Find_all_services_between_pops(MinPop,MaxPop,radius)
 
 		elif selection == '4':
 			os.system('clear')
 			CityName = input('Enter the name of the City: ')
+			print('Searching...')
 			Search_City(CityName)
 
 		elif selection == '5':
@@ -45,6 +50,7 @@ def menu():
 			StateName = input('Enter the name of the State: ')
 			MinPop = input('Enter the Minimum population: ')
 			MaxPop = input('Enter the maximum population: ')
+			print('Searching...')
 			Search_State_MinMax(StateName,MinPop,MaxPop)
 
 		elif selection == '6':
