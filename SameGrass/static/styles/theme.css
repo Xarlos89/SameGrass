@@ -1,0 +1,163 @@
+body{
+  text-align: center;
+  background-color:#0f1413;
+  border: 0px;
+  border-top: 0px;
+  margin:0px
+}
+
+h1{
+  color:#ffffff;
+  font-family: 'Montserrat', serif;
+}
+h3{
+  color:#ffffff;
+  font-family: 'Montserrat', serif;
+}
+p{
+  color:#ffffff;
+  font-family: 'Montserrat', serif;
+}
+h5{
+  color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+table {
+  text-align: center;
+  padding: 8px;
+  margin: 25px;
+  
+  background-color: #111716;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+td {
+  height: 30px;
+  padding: 15px;
+  text-align: left;
+  /* border-bottom: 1px solid rgb(71, 71, 71); */
+}
+
+.Navbar{
+  text-align: center;
+  border: 0px;
+  border-top: 0px;
+  margin:0px;
+  height: 340pxpx;
+}
+
+.h1 {
+  text-align: center;
+  border: 0px;
+  border-top: 0px;
+  margin:0px;
+  height: 50px;
+  box-shadow:
+  0 1px 1px hsl(0deg 0% 0% / 0.5),
+  0 2px 2px hsl(0deg 0% 0% / 0.5),
+  0 4px 4px hsl(0deg 0% 0% / 0.5),
+  0 6px 6px hsl(0deg 0% 0% / 0.5),
+  0 8px 8px hsl(0deg 0% 0% / 0.5),
+  0 11px 11px hsl(0deg 0% 0% / 0.5),
+  0 14px 14px hsl(0deg 0% 0% / 0.5),
+  0 16px 16px hsl(0deg 0% 0% / 0.5),
+  0 32px 32px hsl(0deg 0% 0% / 0.1)
+  ;
+}
+
+
+.button-1 {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #545454;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #d9d9d9;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 200;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 30px;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-1:disabled {
+  pointer-events: none;
+}
+
+.button-1:hover {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-1:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+
+.container {
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #383838;
+}
+
+
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
