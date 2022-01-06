@@ -4,10 +4,6 @@ import requests
 
 df = pd.read_excel('PopulationData.xlsx', header=[0])
 
-list_to_search = []
-lats = []
-longs = []
-
 ################ DATABASE FUNCTIONS ################
 
 # Find ALL cities with a max population of...
@@ -17,7 +13,7 @@ def Max_Population(MaxPop):
 		state = df.iloc[row]['State']
 		currentPop = df.iloc[row][2019]
 		if currentPop < int(MaxPop):
-			list_to_search.append(city)
+			
 			print("City: {}\nState: {}\nPopulation: {}\n".format(city,state,currentPop))
 
 # Find ALL cities with a min population of...
@@ -156,7 +152,7 @@ def Find_all_services_between_pops(MinPop,MaxPop,distance):
 		
 		# Make it pretty and print that shit. 
 		print("City: {}\nState: {}\nPopulation: {}\n\nWithin {} miles...\nHospital: {}\nAirport: {}\n".format(i[1][0],i[1][1],i[1][2],dist_in_miles,has_Hospital_near,has_airport_near))
-
+		return output
 
 
 
