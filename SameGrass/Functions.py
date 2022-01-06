@@ -159,33 +159,6 @@ def Find_all_services_between_pops(MinPop,MaxPop,distance):
 
 
 
-# Max_Population(10)
-# Minimum_Population(2000000)
-# Population_Between(1000000, 2000000)
-# Search_City('Los')
-# Search_State_MinMax('California', 1000000, 30000000)
-
-###################### FOR TESTING ##############################
-
-# City = input("What city? : ")
-# miles = input("How far from the city center (In miles)? : ")
-
-# get_place(City)
-# nearby_search_HOSPITAL(latitude,longitude,miles)
-# nearby_search_AIRPORT(latitude,longitude,miles)
-
-# if has_Airport_near is True:
-# 	print("Airport is True")
-# else:
-# 	print("Airport is False")
-
-# if has_Hospital_near is True:
-# 	print("Hospital is True")
-# else: 
-# 	print("Hospital is False")
-
-
-
 
 
 
