@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+table {
+  text-align: center;
+  padding: 8px;
+  margin: 25px;
+  
+  background-color: #f0eeeb;
+  border-radius: 10px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+td {
+  height: 30px;
+  padding: 10px;
+  text-align: left;
+  
+/*   border-bottom: 1px solid rgb(71, 71, 71); */
+}

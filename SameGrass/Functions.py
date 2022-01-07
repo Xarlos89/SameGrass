@@ -28,13 +28,16 @@ def Minimum_Population(MinPop):
 
 # Find ALL cities with population between...
 def Population_Between(MinPop,MaxPop):
+	global output
 	for row in range(0,len(df)):
 		city = df.iloc[row]['City']
 		state = df.iloc[row]['State']
 		currentPop = df.iloc[row][2019]
 		if int(MinPop) < currentPop < int(MaxPop):
-			list_to_search.append(city)
-			print("City: {}\nState: {}\nPopulation: {}\n".format(city,state,currentPop))
+			# list_to_search.append(city)
+			output = "City: {}\nState: {}\nPopulation: {}\n".format(city,state,currentPop)
+			return output
+			# print("City: {}\nState: {}\nPopulation: {}\n".format(city,state,currentPop))
 
 # Search by name of city.
 def Search_City(CityName):
