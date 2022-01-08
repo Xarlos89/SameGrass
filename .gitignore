@@ -129,3 +129,9 @@ dmypy.json
 .pyre/
 SameGrass/apikey.py
 SameGrass/testing.py
+SameGrass/US City data/SQL/.DS_Store
+SQL/.DS_Store
+SameGrass/US City data/Python/.DS_Store
+SameGrass/US City data/Excel-csv/.DS_Store
+SameGrass/US City data/.DS_Store
+SameGrass/static/.DS_Store
